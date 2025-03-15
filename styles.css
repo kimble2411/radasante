@@ -444,4 +444,11 @@ transition: 0.5s;
     margin: 1opx;
 }
 }
-
+@media(max-width:300px){
+    body{
+        max-width:100%
+    }
+    footer{
+        max-width:100%
+    }
+}
