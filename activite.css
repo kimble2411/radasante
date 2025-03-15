@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(https://cdn.pixabay.com/photo/2016/01/14/02/48/girl-1139277_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    background-color: red;
+    height: 210px;
+    margin-top: 150px;
+    border: 2px solid black;
+}
+p{
+    font-size: 1.3rem;
+}
+button{
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 70px;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+    transition: 0.3s;
+}
+i{
+    color: orange;
+}
