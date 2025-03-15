@@ -16,7 +16,7 @@ body{
 }
 .box{
     background-color: red;
-    height: 260px;
+    height: 40vh;
     margin-top: 150px;
     border: 2px solid black;
 }
